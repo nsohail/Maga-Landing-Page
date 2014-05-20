@@ -1,0 +1,509 @@
+@import url(http://fonts.googleapis.com/css?family=ABeeZee);
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+/**{
+	  outline: 1px solid black;
+}*/
+
+
+
+@font-face{
+font-family: 'flexo-light';
+src: url('fonts/Flexo-Light.otf');
+font-weight: normal;
+}
+
+@font-face{
+font-family: 'flexo-demi';
+src: url('fonts/Flexo-Demi.otf');
+font-weight: normal;
+}
+
+@font-face{
+font-family: 'flexo-medium';
+src: url('fonts/flexo-medium.otf');
+font-weight: normal;
+}
+
+@font-face{
+font-family: 'elephant';
+src: url('fonts/elephant.otf');
+font-weight: normal;
+}
+
+
+
+body{
+	margin:0;
+}
+
+header{
+	height:60px;
+	background-color:rgba(44,62,80,0.49);
+	position:relative;
+	z-index:200;
+}
+
+#container{
+	margin:auto;
+	min-width:1024px;
+}
+
+#frame{
+	margin:auto;
+	
+}
+
+.logo{
+	float:left;
+	border-right: solid 1px white;
+	height:30px;
+	padding-right:20px;
+	margin-right:20px;
+	margin-top:13px;
+	margin-left:30px;	
+}
+
+
+.maga_info a{
+	float:left;
+	margin-top:22px;
+	color:rgba(255,255,255,1.00);
+	text-decoration:none;
+	font-family: flexo-light;
+}
+
+.maga_info a:hover{
+	color:rgba(218,218,218,1.00);
+}
+
+
+#main_image{
+	height:455px;
+	background-image:url(images/top_image2.png);
+	background-size:cover;
+	position:relative;
+	margin-top:-60px;
+	/*z-index:-100;*/
+}
+
+
+
+.main_caption{
+	position:absolute;
+	width:340px;
+	line-height:40px;
+	top:175px;
+	left:48px;
+	font-size:30px;
+	color:rgba(255,255,255,1.00);
+	line-height:42px;
+	font-weight:bold;
+	text-shadow:0px 1px 3px #000;
+	font-family: flexo-demi;
+}
+
+
+.app_button{
+	position:absolute;
+	top:320px;
+	left:50px;
+}
+
+
+
+
+
+
+#subnav{
+	height:40px;
+	width:100%;
+	background-color:rgba(44,62,80,0.49);
+	position:absolute;
+	bottom:0px;
+	border-top:1px solid rgba(255,255,255,0.19);
+	
+}
+
+
+#subnav ul{
+	list-style:none;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;	
+}
+
+#subnav ul li{
+	display:inline-block;
+	padding-right:10px;
+	color:rgba(255,255,255,1.00);
+	font-size:14px;
+	height:50px;
+	border-right:1px solid rgba(206,206,206,0.21);
+	width:70px;
+	text-align:center;
+	padding:12px 30px 0 0px;
+	font-family:flexo-demi;
+	
+}
+
+
+#subnav .nav_space{
+	padding:12px 35px 0 20px;
+}
+
+
+#subnav li a{
+	text-decoration:none;
+	color:rgba(253,253,253,1.00);
+}
+
+
+#subnav li a:hover{
+	text-decoration:none;
+	color:rgba(218,218,218,1.00);
+}
+
+
+.section_title{
+	padding-top:60px;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	font-size:3em;	
+	font-family: flexo-demi;  
+}
+
+.other_title{
+	padding-top:120px;
+}
+
+.black{
+	color:rgb(69, 69, 69);
+}
+
+#section_divider{
+	margin:auto;
+	width:300px;
+}
+
+
+
+
+
+#feature_content{
+	width:965px;
+	margin:auto;
+	position:absolute;
+	left:0;
+	bottom:-7px;
+	right:0;
+
+}
+
+
+#feature_1{
+	position: relative;
+	height:630px;
+	background:rgba(44,62,80,1.00);
+	
+}
+
+
+.feature_title{
+	color:white;
+	font-weight:bold;
+	font-size:2em;
+	line-height:42px;
+	letter-spacing: .2px;
+	font-family: flexo-demi;
+}
+
+.feature_title1{
+	font-size: 2em;
+}
+
+
+.feature_caption{
+	color:white;
+	font-size:1.2em;
+	float:left;
+	width:380px;
+	font-family: flexo-light;
+	margin-top:9px;
+}
+
+.feature_caption1{
+	margin-top: 4px;
+}
+
+
+
+
+#feature_image{
+	float:left;
+	width:580px;
+}
+
+
+
+#feature_2{
+	position:relative;
+	height:460px;
+	background-color:rgba(49,122,131,1.00);
+}
+
+#feature_3{
+	position:relative;
+	height:460px;
+	background-color:rgba(115,198,179,1.00);
+}
+
+#feature_4{
+	position:relative;
+	height:460px;
+	background-color:rgba(49,122,131,1.00);
+}
+
+
+#testimonials{
+	height:410px;
+	background-color:rgba(218,218,218,1.00);
+}
+
+
+#message_card{
+	background-image:url('images/message.png');
+	background-color:#c4ced6;
+	background-size: 800px;
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	height:400px;
+	width:100%;
+}
+
+#bottom_image{
+	height:400px;
+	background-image:url('images/map_back.png');
+	background-size: cover;
+	position:relative;
+	background-color: #352d29;
+}
+
+.bottom_caption{
+	position:absolute;
+	width:460px;
+	line-height:24px;
+	top:74px;
+	left:40px;
+	font-size:16px;
+	text-align:justify;
+	color:rgba(255,255,255,1.00);
+	font-family:flexo-light;
+}
+
+.app_button2 img{
+	position:absolute;
+	top:260px;
+	left:370px;
+}
+
+
+.title{
+	font-size:30px;
+	line-height:45px;
+	font-family: flexo-demi;
+}
+
+
+#testimonials{
+	background-color:#d6eef2;
+	position:relative;
+}
+
+
+
+#bubbles{
+	width:1024px;
+	margin:auto;
+	position:relative;
+}
+
+
+#bubble_1{
+	position:absolute;
+	left:40px;
+	margin-top:50px;
+}
+
+#bubble_2{
+	position:absolute;
+	left:360px;
+	margin-top:50px;
+}
+
+#bubble_3{
+	position:absolute;
+	left:680px;
+	margin-top:50px;
+}
+
+
+
+#top_bubble{
+	background-image:url(images/test_bubble_top.png);
+	width:296px;
+	height:24px;
+}
+
+#middle_bubble{
+	background-color:#f2f2f2;
+	width:296px;
+	height:65px;
+}
+
+.bubble_text{
+	font-size:.9em;
+	padding:0 45px 0 42px;	
+	width:215px;
+	font-style:italic;
+	color:#2c3e50;
+	line-height: 19px;
+	font-family: flexo-light;
+}
+
+
+.quotes, .quotes2{
+	font-size: 50px;
+	float:left;
+	line-height: 10px;
+	margin:10px 0 0 10px;
+	color:rgb(69, 69, 69);
+	font-family: 'PT Mono';
+
+}
+
+.quotes2{
+	float:right;
+	margin:0 15px 10px 0;
+}
+
+
+#bottom_bubble{
+	background-image:url(images/test_bubble_bottom_06.png);
+	width:296px;
+	height:39px;
+}
+
+
+
+#person_pic{
+	position:absolute;
+	left:45px;
+}
+
+#person_test{
+	position:absolute;
+	left:105px;
+	font-size:.9em;
+	top:138px;
+	font-family: flexo;
+}
+
+
+.name{
+	font-weight: bolder;
+	color:rgb(48, 48, 48);
+}
+
+footer{
+
+	background-color:rgba(101,136,161,1.00);
+
+}
+
+
+footer ul{
+	width:200px;
+	margin:auto;
+	padding-top:22px;
+	margin-bottom:10px;
+	float:left;
+	padding:0;
+}
+
+footer ul li{
+	list-style:none;
+	display:inline-block;
+	padding-right:20px;
+}
+
+
+
+.copyright{
+	width:140px;
+	margin:auto;
+	font-size:10px;
+	clear:both;
+	padding-bottom: 15px;
+	color:white;
+	font-family: flexo;
+}
+
+
+#contact{
+	float:left;
+	color:white;
+	font-size: 14px;
+	font-family: flexo;
+}
+
+#contact li{
+	padding:5px;
+}
+
+#contact li a{
+	text-decoration: none;
+	color:white;
+}
+
+#contact li a:hover{
+	color:rgba(218,218,218,1.00);
+}
+
+
+.bold{
+	font-family:flexo-demi;
+}
+
+#footer_frame{
+	margin: auto;
+	width:660px;
+	height:100px;
+	padding-top:50px;
+
+}
+
+
+
+
+
+#icons{
+	width:220px;
+	margin-left:40px;
+}
+
+#icons img{
+	opacity:.8;
+}
+
+#icons img:hover{
+	opacity:1.0;
+}
+
+
+.text{
+	margin-top: 10px;
+}
