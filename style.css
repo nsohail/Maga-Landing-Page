@@ -83,7 +83,7 @@ header{
 
 #main_image{
 	height:455px;
-	background-image:url(images/top_image2.png);
+	background-image:url(images/top_image.jpg);
 	background-size:cover;
 	position:relative;
 	margin-top:-60px;
@@ -286,7 +286,7 @@ header{
 
 #bottom_image{
 	height:400px;
-	background-image:url('images/map_back.png');
+	background-image:url('images/map_back.jpg');
 	background-size: cover;
 	position:relative;
 	background-color: #352d29;
