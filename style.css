@@ -109,9 +109,9 @@ header{
 	font-family: flexo-demi;
 }
 .app_button{
-	position:absolute;
+	position:relative;
 	top:310px;
-	left:50px;
+	left:-175px;
 }
 
 
