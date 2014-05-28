@@ -19,8 +19,10 @@
 <div id="container">
 
 <header>
-	<div class="logo"><img src="images/white_logo.png" width="35" height="32"></div>
-    <div class="maga_info"><a href="http://magadesign.com" target="_blank">Maga Design Inc.</a></div>
+	<div class="logo"><a href="https://magadesign.com" target='_blank'>
+        <img src="images/white_logo.png" id="logo-image" width="35" height="32" onmouseenter="hover()" onmouseleave="unhover()" />
+    </a></div>
+    <div class="maga_info">Maga MapApp</div>
 </header>
 
 
@@ -31,7 +33,7 @@ INTERACTIVE PROCESS VISUALIZATION IN YOUR HANDS
 
 
 <div class="app_button">
-<a href="https://itunes.apple.com/us/app/maga-mapapp/id810182307" target="_blank"><img src="images/app_store_button.png" width="130" height="39"></a>
+<a href="https://itunes.apple.com/us/app/maga-mapapp/id810182307" target="_blank"><img src="images/app_store_button.png" width="135" height="40"></a>
 </div><!--app button ends-->
 
 <div id="subnav">
@@ -132,7 +134,7 @@ Updates will be loaded automatically when the app has network access. This way y
 </div><!--main caption-->
 
 <div class="app_button2">
-<a href="https://itunes.apple.com/us/app/maga-mapapp/id810182307" target="_blank"><img src="images/app_store_button.png" width="130" height="39"></a>
+<a href="https://itunes.apple.com/us/app/maga-mapapp/id810182307" target="_blank"><img src="images/app_store_button.png" width="135" height="40"></a>
 </div><!--app button ends-->
 </div><!--bottom_image-->
 
@@ -153,7 +155,7 @@ Updates will be loaded automatically when the app has network access. This way y
 	
     <ul id="icons">
     <li><a href="https://www.facebook.com/magadesigninc" target="_blank"><img src="images/facebook_icon.png" width="45" height="45"></a></li>
-    <li><a href="http://instagram.com/magadesigninc" target="_blank"><img src="images/instagram.png" width="45" height="45"></a></li>
+    <li><a href="https://instagram.com/magadesigninc" target="_blank"><img src="images/instagram.png" width="45" height="45"></a></li>
     <li><a href="https://twitter.com/MagaDesignInc" target="_blank"><img src="images/twitter.png" width="45" height="45"></a></li>
     </ul>
 </div><!--footer frame ends-->
@@ -181,6 +183,19 @@ $(function() {
     }
   });
 });
+
+
+
+
+
+
+function hover(){
+    $('#logo-image').attr('src', "images/white_logo.png").css('opacity','1');;
+}
+function unhover(element){
+    $('#logo-image').attr('src',"images/white_logo.png").css('opacity','0.9');
+}
+
 
 </script>
 
