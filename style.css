@@ -36,6 +36,8 @@ font-weight: normal;
 
 
 
+
+
 body{
 	margin:0;
 }
@@ -83,7 +85,7 @@ header{
 
 #main_image{
 	height:455px;
-	background-image:url(images/top_image2.png);
+	background-image:url(images/top_image.jpg);
 	background-size:cover;
 	position:relative;
 	margin-top:-60px;
@@ -92,26 +94,43 @@ header{
 
 
 
+
 .main_caption{
-	position:absolute;
-	width:340px;
-	line-height:40px;
-	top:175px;
-	left:48px;
-	font-size:30px;
-	color:rgba(255,255,255,1.00);
-	line-height:42px;
-	font-weight:bold;
-	text-shadow:0px 1px 3px #000;
+
+	clear: both;
+	width: 390px;
+	padding: 135px 0px 0px 48px;
+	
+	line-height: 40px;
+	
+	font-size: 35px;
+	color: rgba(255,255,255,1.00);
+	line-height: 42px;
+	font-weight: bold;
+	text-shadow: 0px 1px 3px #000;
 	font-family: flexo-demi;
 }
-
-
 .app_button{
-	position:absolute;
-	top:320px;
-	left:50px;
+	padding: 10px 0px 0px 50px;
 }
+
+
+@media (min-width:1500px){
+	.main_caption{
+		font-size:50px;
+		width:550px;
+		line-height:60px;
+		padding: 85px 0px 0px 48px;
+	
+	}
+
+	.app_button{
+		top:320px;
+	}
+
+}
+
+
 
 
 
@@ -151,7 +170,8 @@ header{
 
 
 #subnav .nav_space{
-	padding:12px 35px 0 20px;
+	padding:12px 25px 0 20px;
+	width:90px;
 }
 
 
@@ -206,7 +226,7 @@ header{
 
 #feature_1{
 	position: relative;
-	height:630px;
+	height:600px;
 	background:rgba(44,62,80,1.00);
 	
 }
@@ -286,7 +306,7 @@ header{
 
 #bottom_image{
 	height:400px;
-	background-image:url('images/map_back.png');
+	background-image:url('images/map_back.jpg');
 	background-size: cover;
 	position:relative;
 	background-color: #352d29;
@@ -409,7 +429,7 @@ header{
 	left:105px;
 	font-size:.9em;
 	top:138px;
-	font-family: flexo;
+	font-family: flexo-light;
 }
 
 
@@ -449,7 +469,7 @@ footer ul li{
 	clear:both;
 	padding-bottom: 15px;
 	color:white;
-	font-family: flexo;
+	font-family: flexo-light;
 }
 
 
@@ -457,7 +477,7 @@ footer ul li{
 	float:left;
 	color:white;
 	font-size: 14px;
-	font-family: flexo;
+	font-family: flexo-light;
 }
 
 #contact li{
